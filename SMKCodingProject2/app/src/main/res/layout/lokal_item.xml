@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Meninggal :"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="Positif : "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:text="Sembuh : "/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lokalMeninggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"
+            />
+
+        <TextView
+            android:id="@+id/lokalPositif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil"
+            android:textSize="18sp"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="-47dp"/>
+
+        <TextView
+            android:id="@+id/lokalSembuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasil"
+            android:textSize="18sp"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="-47dp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

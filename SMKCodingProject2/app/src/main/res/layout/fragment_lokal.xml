@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/swipeRefreshLokal"
+    android:layout_height="match_parent"
+    tools:context=".LokalFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Statsistik COVID-19(Lokal)"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Indonesia"
+            android:id="@+id/subjudul"
+            android:layout_below="@+id/judul"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_below="@id/subjudul"
+            android:layout_margin="20dp"
+            android:id="@+id/listLokal1"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Indonesia([Provinsi)"
+            android:id="@+id/subjudul2"
+            android:layout_below="@id/listLokal1"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_below="@id/subjudul2"
+            android:layout_margin="20dp"
+            android:id="@+id/listLokal2"/>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
