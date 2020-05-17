@@ -17,7 +17,7 @@
         android:padding="8dp">
 
         <TextView
-            android:id="@+id/homeName"
+            android:id="@+id/home2Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nama"
@@ -25,14 +25,14 @@
             android:textSize="16sp"/>
 
         <TextView
-            android:id="@+id/homeDeskripsi"
+            android:id="@+id/home2Deskripsi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Desk"
             android:textSize="10sp"/>
 
         <TextView
-            android:id="@+id/homeList1"
+            android:id="@+id/home2List1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="List"
@@ -40,7 +40,7 @@
             android:layout_marginTop="6dp"/>
 
         <TextView
-            android:id="@+id/homeList2"
+            android:id="@+id/home2List2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="List"
@@ -48,20 +48,13 @@
             android:layout_marginTop="6dp"/>
 
         <TextView
-            android:id="@+id/homeList3"
+            android:id="@+id/home2List3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="List"
             android:textSize="10sp"
             android:layout_marginTop="6dp"/>
 
-        <TextView
-            android:id="@+id/homeList4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="List"
-            android:textSize="10sp"
-            android:layout_marginTop="6dp"/>
 
         <View
             android:layout_width="match_parent"

@@ -1,10 +1,9 @@
 package com.kamikaze.smkcodingproject2.dataclass
 
-data class Home (
+class Home2 (
     val judul : String,
     val deskripsi : String,
     val list1 : String,
     val list2 : String,
-    val list3 : String,
-    val list4 : String
+    val list3 : String
 )

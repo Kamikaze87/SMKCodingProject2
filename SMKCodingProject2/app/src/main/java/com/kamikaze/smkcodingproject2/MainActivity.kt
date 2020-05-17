@@ -9,7 +9,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    val teksNavigasi = arrayOf( "hospital", "global", "home", "lokal", "about")
             val iconNavigasi = arrayOf(R.drawable.ic_hospital, R.drawable.ic_global, R.drawable.ic_home, R.drawable.ic_lokal, R.drawable.ic_about)
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         view_pager.setAdapter(adapter)
         TabLayoutMediator(tb_navbar, view_pager,
         TabConfigurationStrategy {tab, position ->
-            tab.text = teksNavigasi[position]
             tab.icon = ResourcesCompat.getDrawable(resources, iconNavigasi[position],        null)
         }).attach()
     }

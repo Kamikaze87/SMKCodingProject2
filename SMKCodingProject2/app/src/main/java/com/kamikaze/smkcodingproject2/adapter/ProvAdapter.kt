@@ -5,16 +5,15 @@ import android.view.ViewGroup
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.kamikaze.smkcodingproject2.R
-import com.kamikaze.smkcodingproject2.dataclass.GlobalData
+import com.kamikaze.smkcodingproject2.dataclass.ProvinsiItem
 import kotlinx.android.extensions.LayoutContainer
-import kotlinx.android.synthetic.main.global_item.*
+import kotlinx.android.synthetic.main.lokal_item2.*
 
-class GlobalAdapter (private val context: Context, private val items:List<GlobalData>,
-                     private val listener:(GlobalData)-> Unit):
-    RecyclerView.Adapter<GlobalAdapter.ViewHolder>() {
+class ProvAdapter (private val context: Context, private val items:List<ProvinsiItem>,
+                           private val listener:(ProvinsiItem)-> Unit): RecyclerView.Adapter<ProvAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)= ViewHolder(context, LayoutInflater.from(context).inflate(
-        R.layout.lokal_item, parent, false))
+        R.layout.lokal_item2, parent, false))
 
 
     override fun getItemCount(): Int {
@@ -28,13 +27,16 @@ class GlobalAdapter (private val context: Context, private val items:List<Global
 
     class ViewHolder(val context: Context,override val containerView: View):
         RecyclerView.ViewHolder(containerView), LayoutContainer {
-        fun bindItem(item: GlobalData, listener: (GlobalData) -> Unit){
-            txtnama.text = item.name
-            hasil.text = item.value
+        fun bindItem(item: ProvinsiItem, listener: (ProvinsiItem) -> Unit){
+            val attributes =  item.attributes
+
+            lokalProvinsi.text = attributes.provinsi
+            lokalMeninggal2.text = attributes.kasusMeni.toString()
+            lokalPositif2.text = attributes.kasusPosi.toString()
+            lokalSembuh2.text = attributes.kasusSemb.toString()
 
 
             containerView.setOnClickListener{listener(item)}
         }
     }
-
 }

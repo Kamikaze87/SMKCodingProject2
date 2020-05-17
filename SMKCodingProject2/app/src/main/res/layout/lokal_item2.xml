@@ -39,22 +39,6 @@
                 android:textSize="18sp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="KodeProvinsi : "/>
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:text="FID :"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:layout_marginTop="5dp"
-                android:textStyle="bold"
                 android:text="Meninggal : "/>
 
             <TextView
@@ -77,61 +61,42 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/lokalFID"
+            android:id="@+id/lokalProvinsi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="hasil"
-            android:textSize="18sp"
-            android:layout_marginTop="28dp"
-            android:layout_marginLeft="-40dp"
-            />
+            android:textSize="14sp"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="-27dp"/>
+
 
         <TextView
             android:id="@+id/lokalMeninggal2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="hasil"
-            android:textSize="18sp"
-            android:layout_marginTop="57dp"
-            android:layout_marginLeft="-7dp"/>
+            android:textSize="14sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="-30dp"/>
 
         <TextView
             android:id="@+id/lokalPositif2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="hasil"
-            android:textSize="18sp"
-            android:layout_marginTop="80dp"
-            android:layout_marginLeft="-47dp"/>
+            android:textSize="14sp"
+            android:layout_marginTop="87dp"
+            android:layout_marginLeft="-32dp"/>
 
         <TextView
             android:id="@+id/lokalSembuh2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="hasil"
-            android:textSize="18sp"
-            android:layout_marginTop="110dp"
-            android:layout_marginLeft="-47dp"
+            android:textSize="14sp"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="-34dp"
             />
-
-        <TextView
-            android:id="@+id/lokalKode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="hasil"
-            android:textSize="18sp"
-            android:layout_marginTop="139dp"
-            android:layout_marginLeft="-47dp"/>
-
-        <TextView
-            android:id="@+id/lokalProvinsi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="hasil"
-            android:textSize="18sp"
-            android:layout_marginTop="168dp"
-            android:layout_marginLeft="-37dp"/>
-
 
 
     </LinearLayout>

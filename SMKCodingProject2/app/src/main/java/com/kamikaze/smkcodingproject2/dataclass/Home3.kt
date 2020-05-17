@@ -1,3 +1,5 @@
 package com.kamikaze.smkcodingproject2.dataclass
 
-class GlobalData1 : ArrayList<GlobalData>()
+class Home3 (
+    val deskripsi : String
+)
