@@ -9,12 +9,6 @@
     android:layout_marginRight="16dp">
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp">
-
 
         <LinearLayout
             android:layout_margin="16dp"
@@ -23,80 +17,120 @@
             android:orientation="vertical"
             android:padding="8dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:layout_marginTop="5dp"
-                android:textStyle="bold"
-                android:text="Provinsi : "/>
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:drawableLeft="@drawable/ic_provinsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Provinsi : "/>
 
 
+                <TextView
+                    android:id="@+id/lokalProvinsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hasil"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="31dp"
+                    android:textSize="14sp"/>
 
-            <TextView
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:layout_marginTop="5dp"
-                android:textStyle="bold"
-                android:text="Meninggal : "/>
+                android:orientation="horizontal"
+                android:padding="8dp">
 
-            <TextView
+                <TextView
+                    android:drawableLeft="@drawable/ic_meninggal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Meninggal : "/>
+
+                <TextView
+                    android:id="@+id/lokalMeninggal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hasil"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="1dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:layout_marginTop="5dp"
-                android:textStyle="bold"
-                android:text="Positif : "/>
+                android:orientation="horizontal"
+                android:padding="8dp">
 
-            <TextView
+
+                <TextView
+                    android:drawableLeft="@drawable/ic_positif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Positif : "/>
+
+
+                <TextView
+                    android:id="@+id/lokalPositif2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hasil"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginTop="5dp"
-                android:text="Sembuh : "/>
+                android:orientation="horizontal"
+                android:padding="8dp">
 
 
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/lokalProvinsi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="hasil"
-            android:textSize="14sp"
-            android:layout_marginTop="29dp"
-            android:layout_marginLeft="-27dp"/>
+                <TextView
+                    android:drawableLeft="@drawable/ic_sembuh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="Sembuh : "/>
 
 
-        <TextView
-            android:id="@+id/lokalMeninggal2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="hasil"
-            android:textSize="14sp"
-            android:layout_marginTop="60dp"
-            android:layout_marginLeft="-30dp"/>
+                <TextView
+                    android:id="@+id/lokalSembuh2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hasil"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    />
 
-        <TextView
-            android:id="@+id/lokalPositif2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="hasil"
-            android:textSize="14sp"
-            android:layout_marginTop="87dp"
-            android:layout_marginLeft="-32dp"/>
 
-        <TextView
-            android:id="@+id/lokalSembuh2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="hasil"
-            android:textSize="14sp"
-            android:layout_marginTop="115dp"
-            android:layout_marginLeft="-34dp"
-            />
+            </LinearLayout>
+
+
+
 
 
     </LinearLayout>

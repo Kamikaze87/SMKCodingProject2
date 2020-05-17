@@ -17,13 +17,16 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:background="@drawable/rounded"
+            android:textColor="#ffffff"
+            android:padding="5dp"
             android:id="@+id/judul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Data Statsistik COVID-19(Lokal)"
+            android:text="Statsistik COVID-19(Lokal)"
+            android:layout_margin="15dp"
             android:textSize="20sp"
-            android:layout_centerHorizontal="true"
-            android:layout_margin="20dp"/>
+            android:layout_centerHorizontal="true"/>
 
         <TextView
             android:layout_height="wrap_content"

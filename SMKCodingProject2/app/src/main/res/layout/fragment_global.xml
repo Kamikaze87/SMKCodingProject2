@@ -17,16 +17,19 @@
         android:orientation="vertical">
 
         <TextView
+            android:background="@drawable/rounded"
+            android:textColor="#ffffff"
+            android:padding="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Statistik Global"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="10dp"
+            android:layout_margin="15dp"
             android:textStyle="bold"
             android:textSize="20sp"/>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_Positif"
+            android:id="@+id/rv_global"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="vertical"

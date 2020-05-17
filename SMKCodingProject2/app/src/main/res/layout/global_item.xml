@@ -2,17 +2,12 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
     android:layout_marginBottom="8dp"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -21,22 +16,112 @@
         android:padding="8dp">
 
         <TextView
-            android:id="@+id/txtnama"
+            android:drawableLeft="@drawable/ic_negara"
+            android:id="@+id/negara"
+            android:layout_gravity = "center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
             android:textStyle="bold"
-            android:text="text :"/>
+            android:text="Negara  :"/>
 
-    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
 
         <TextView
-            android:id="@+id/hasil"
-            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_positif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:text="hasil"/>
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:text="Total Positif :"/>
+
+        <TextView
+            android:id="@+id/positif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:text="Positif"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+        <TextView
+            android:drawableLeft="@drawable/ic_meninggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:text="Total Meninggal :"/>
+
+        <TextView
+            android:id="@+id/meninggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:text="Meninggal"/>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+
+            android:drawableLeft="@drawable/ic_sembuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:text="Total Sembuh :"/>
+        <TextView
+            android:id="@+id/sembuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:text="sembuh"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:text="Kasus Aktif :"/>
+        <TextView
+            android:id="@+id/aktif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="8dp"
+            android:text="Aktif"/>
+    </LinearLayout>
 
     </LinearLayout>
 

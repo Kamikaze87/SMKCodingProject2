@@ -46,7 +46,7 @@ class HomeFragment : Fragment() {
         "-Minum yang banyak",
         "-Menjaga ruangan cukup lembab atau mandi dengan air hangat untuk membantu meringankan sakit tenggorokan dan batuk.\n"))
 
-    listData.add(Home("Pengobatan Virus Corona (COVID-19)",
+    listData.add(Home("Pengobatan(COVID-19)",
     "ada beberapa langkah yang dapat dilakukan dokter untuk meredakan gejala dan mencegah penyebaran virus, yaitu:",
     "-Merujuk penderita COVID-19 yang berat untuk menjalani perawatan dan karatina di rumah sakit rujukan",
     "-Memberikan obat pereda demam dan nyeri yang aman",
@@ -54,7 +54,7 @@ class HomeFragment : Fragment() {
     "-Menganjurkan penderita COVID-19 untuk banyak minum air putih untuk menjaga kadar cairan tubuh"))
 
         listData2 = ArrayList()
-        listData2.add(Home2("Diagnosis Virus Corona (COVID-19)",
+        listData2.add(Home2("Diagnosis (COVID-19)",
         "Guna memastikan diagnosis COVID-19, dokter akan melakukan beberapa pemeriksaan berikut:",
         "Rapid test untuk mendeteksi antibodi (IgM dan IgG) yang diproduksi oleh tubuh untuk melawan virus Corona",
         "Swab test atau tes PCR (polymerase chain reaction) untuk mendeteksi virus Corona di dalam dahak",

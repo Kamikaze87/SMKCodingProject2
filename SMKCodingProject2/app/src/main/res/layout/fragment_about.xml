@@ -6,10 +6,122 @@
     android:orientation="vertical"
     tools:context=".AboutFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="fRAGMENT aBOUT" />
+        android:background="@drawable/rounded"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Tentang Saya" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="147dp"
+            android:layout_height="86dp"
+            android:src="@drawable/profil" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama :"
+            android:textStyle="bold"
+            android:layout_marginLeft="-215dp"
+            android:layout_marginTop="200dp"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="200dp"
+            android:text="Andriano Wijaya"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat :"
+            android:textStyle="bold"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Jawa Timur/Malang/Sukun"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail :"
+            android:textStyle="bold"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            android:text="andrianow817@gmail.com"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Github :"
+            android:textStyle="bold"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="20dp"
+            android:text="Kamikaze87"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>
