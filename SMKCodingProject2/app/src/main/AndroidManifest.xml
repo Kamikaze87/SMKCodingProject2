@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Statistik_prov"></activity>
+        <activity android:name=".LokalActivity"></activity>
         <activity android:name=".Statistik_prov" />
         <activity android:name=".MainActivity">
             <intent-filter>
